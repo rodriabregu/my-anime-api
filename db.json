@@ -1,0 +1,30 @@
+{
+    "animes": [
+        {
+            "demonSlayer": [
+                {
+                    "characters": [
+                        {
+                            "Tanjiro Kamado": {
+                                "age": 15
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "evangelion": [
+                {
+                    "characters": [
+                        {
+                            "Shinji Ikari": {
+                                "age": 14
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
