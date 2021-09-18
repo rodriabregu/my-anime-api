@@ -1,7 +1,9 @@
 {
     "animes": [
-        {
-            "demonSlayer": [
+        {   
+            "id": 1,
+            "title": "demonSlayer",
+            "info": [
                 {
                     "characters": [
                         {
