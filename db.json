@@ -8,9 +8,190 @@
                     "characters": [
                         {
                             "Shinji Ikari": {
+                                "age": [
+                                    "14 (anime)",
+                                    "28 (3.0)"
+                                ],
+                                "Height": "1,55 m (5 ′ 1 ″)",
+                                "Weight": "58,5 kg (129 lb)",
+                                "Birthday": "June 6th",
+                                "Hair Color": "Brown",
+                                "Eye Color": "Brown",
+                                "Anime Debut": "Episode 1: Angel Attack",
+                                "Image": "https://tinyurl.com/kkzk49v6"
+                            }
+                        },
+                        {
+                            "Rei Ayanami": {
+                                "age": [
+                                    "14"
+                                ],
+                                "Height": "1,54 m (5 ′ 1 ″)",
+                                "Weight": "56,2 kg (124 lb)",
+                                "Birthday": "Unknown",
+                                "Hair Color": "Blue light",
+                                "Eye Color": "Red",
+                                "Anime Debut": "Episode 1: Angel Attack",
+                                "Image": "https://tinyurl.com/4w6j3fk2"
+                            }
+                        },
+                        {
+                            "Asuka Langley Soryu": {
+                                "age": [
+                                    "14 (anime)"
+                                ],
+                                "Height": " 1,57 m (5 ′ 2 ″)",
+                                "Weight": "46 kg (101 lb)",
+                                "Birthday": "December 4th",
+                                "Hair Color": "Orange",
+                                "Eye Color": "Blue",
+                                "Anime Debut": "Episode 8: Asuka Strikes!",
+                                "Image": "https://tinyurl.com/jnxabzxr"
+                            }
+                        },
+                        {
+                            "Misato Katsuragi": {
+                                "age": [
+                                    "30 (anime)",
+                                    "43 (3.0)"
+                                ],
+                                "Height": "1,63 m (5 ′ 4 ″)",
+                                "Weight": "65.8 kg (145 lb)",
+                                "Birthday": "December 8th",
+                                "Hair Color": "Dark Purple",
+                                "Eye Color": "Brown",
+                                "Anime Debut": "Episode 1: Angel Attack",
+                                "Image": "https://tinyurl.com/2fm3bdax"
+                            }
+                        },
+                        {
+                            "Ryoji Kaji": {
+                                "age": [
+                                    "30 (anime)"
+                                ],
+                                "Height": "1,78m (5 ′ 10 ″)",
+                                "Weight": "72,6 kg (160 lbs)",
+                                "Birthday": "June 17th",
+                                "Hair Color": "Brown",
+                                "Eye Color": "Green",
+                                "Anime Debut": "Episode 8: Asuka Strikes!",
+                                "Image": "https://tinyurl.com/bsnjnher"
+                            }
+                        },
+                        {
+                            "Gendo Ikari": {
+                                "age": [
+                                    "48 (anime)",
+                                    "  (3.0)"
+                                ],
+                                "Height": "1,92m",
+                                "Weight": "Unknown",
+                                "Birthday": "April 28th",
+                                "Hair Color": "Brown",
+                                "Eye Color": "Brown",
+                                "Anime Debut": "Episode 1: Angel Attack",
+                                "Image": "https://tinyurl.com/h8dmxayf"
+                            }
+                        },
+                        {
+                            "Kaworu Nagisa": {
+                                "age": [
+                                    "Unknown"
+                                ]
+                            }
+                        },
+                        {
+                            "Mari Makinami Illustrious": {
+                                "age": [
+                                    "48 approximately (3.0)"
+                                ]
+                            }
+                        },
+                        {
+                            "Ritsuko Akagi": {
+                                "age": [
+                                    "30 (anime)",
+                                    "44 (3.0)"
+                                ],
+                                "Image": "https://tinyurl.com/tuf6b5w"
+                            }
+                        },
+                        {
+                            "Yui Ikari": {
+                                "age": [
+                                    "27 (at the time of his death)"
+                                ],
+                                "Height": "1,54 m (5 ′ 1 ″)",
+                                "Anime Debut": "Episode 16: Splitting of the Breast",
+                                "Image": "https://tinyurl.com/sbn9uww9"
+                            }
+                        },
+                        {
+                            "Kozo Fuyutsuki": {
+                                "age": [
+                                    "58 (anime)",
+                                    "72 (3.0)"
+                                ],
+                                "Image": "https://tinyurl.com/58djem8a"
+                            }
+                        },
+                        {
+                            "Toji Suzuhara": {
+                                "age": 14,
+                                "Image": "https://tinyurl.com/2amt9h7s"
+                            }
+                        },
+                        {
+                            "Pen Pen": {
+                                "age": "Unknown",
+                                "Image": "https://tinyurl.com/3jwrybp5"
+                            }
+                        },
+                        {
+                            "Maya Ibuki": {
                                 "age": 14
                             }
+                        },
+                        {
+                            "Makoto Hyuga": {
+                                "age": "21 (approximately)"
+                            }
+                        },
+                        {
+                            "Shigeru Aoba": {
+                                "age": "Unknown"
+                            }
+                        },
+                        {
+                            "Hikari Horaki": {
+                                "age": 14
+                            }
+                        },
+                        {
+                            "Kensuke Aida": {
+                                "age": 14
+                            }
+                        },
+                        {
+                            "Keel Lorentz": {
+                                "age": "67 (approximately)"
+                            }
                         }
+                    ],
+                    "curiosities": [
+                        "Las cejas de Ritsuko Akagi son de distinto color porque su color de pelo natural es rojo y se tiñe de rubio.",
+                        "El Segundo Impacto ocurrió el 13 de Septiembre del año 2000. También es el día de nacimiento de Kaworu Nagisa.",
+                        "En el episodio 2 se ve por primera vez el SDAT de Shinji. Es un reproductor de música digital en cinta magnética tipo cassette. Las pistas que escucha Shinji van del 25 al 26 y viceversa, lo que puede ser una referencia al final de la serie, transcurrido en los episodios 25 y 26.",
+                        "La cerveza que ingiere Misato Katsuragi en los primeros capítulos es una marca de cerveza 'real'. Esta marca es conocida como 'YEBISU'. La firma de dicha cerveza se quejó a Gainax y por eso en los capítulos posteriores al 5, Misato cambia de marca de cerveza.",
+                        "Los nombres de casi todos los personajes son de barcos (o tipos de barcos) de guerra japoneses: Akagi, Aoba, Ayanami, Fuyutsuki, Hyuga, Katsuragi, Soryu, Langley (estadounidense). También muchos nombres están basados en términos náuticos: Ikari/ancla; Kaji/remo corto o timón; Rokubungi/sextante (instrumento para medir ángulos); Kiel (keel)/quilla.",
+                        "Los nombres de Hikari Horaki y sus hermanas (Kodama y Nozomi) son los tres servicios del Shinkansen (tren bala).",
+                        "Cuando Asuka se muda con Shinji antes de la pelea sincronizada, cierra una puerta corrediza y dice que 'es el muro indestructible de Jericó'. Esta es una escena de la película It Happened One Night.",
+                        "En el episodio 9 el EVA-02 destruye un edificio que tenía un cartel que decía 'Studio Fantasia'. Este era el estudio de animación que trabajó con Gainax en la realización de Otaku no Video.",
+                        "El episodio 13 es una copia casi textual de varias escenas de la película The Andromeda Strain, basada en la novela de Michael Crichton, que cuenta sobre la diseminación de un organismo microscópico extraterrestre y los intentos de las agencias de inteligencia de EE.UU. para contenerlo.",
+                        "En el episodio 18 se puede oir que el personal de Estados Unidos realmente habla en inglés, siendo un detalle que se agradece.",
+                        "El subtítulo Do You Love Me? del episodio 25 es el título de un libro escrito por Ronald David Laing. Es una colección de poemas escritos por este psiquiatra, que giran en torno al tema de la necesidad de amor en la sociedad.",
+                        "Los monolitos de SEELE están inspirados en los monolitos que aparecen en la película 2001: Odisea del espacio, y simbolizan la evolución.",
+                        "El ending Fly Me to the Moon fue originalmente uno de los grandes éxitos de Frank Sinatra."
                     ]
                 }
             ]
