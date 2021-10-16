@@ -202,22 +202,25 @@
             "info": [
                 {
                     "characters": [
-                        {
-                            "TanjiroKamado": {
-                                "Age": [
+                            {
+                                "id": 1,
+                                "name": "Tanjiro Kamado",
+                                "age": [
                                     "13 (Chapter 1)",
                                     "15 (End of Chapter 5)",
                                     "16-17 (End of Chapter 204)"
                                 ],
-                                "Height": "165 cm",
-                                "Weight": "61 kg (134 lb)",
-                                "Birthday": "July 14th",
-                                "HairColor": "Black to Red",
-                                "EyeColor": "Dark Red",
-                                "Anime Debut": "Episode 1",
-                                "Image": "https://rb.gy/uxxr0r"
+                                "geight": "165 cm",
+                                "weight": "61 kg (134 lb)",
+                                "birthday": "July 14th",
+                                "hairColor": "Black to Red",
+                                "eyeColor": "Dark Red",
+                                "animeDebut": "Episode 1",
+                                "image": "https://rb.gy/uxxr0r"
                             },
-                            "Nezuko Kamado": {
+                            {
+                                "id": 2,
+                                "name": "TNezuko Kamado",
                                 "Age": [
                                     "12 (Physically)",
                                     "14 (Chronologically)"
@@ -236,7 +239,9 @@
                                 "Anime Debut": "Episode 1",
                                 "Image": "https://rb.gy/sygcws"
                             },
-                            "Tanjuro Kamado": {
+                            {
+                                "id": 3,
+                                "name": "Tanjuro Kamado",
                                 "Hair Color": "Black to Red",
                                 "Eye Color": "Dark Red",
                                 "Anime Debut": [
@@ -245,7 +250,9 @@
                                 ],
                                 "Image": "https://rb.gy/zxv5db"
                             },
-                            "Tomioka Giyu": {
+                            {
+                                "id": 3,
+                                "name": "Tomioka Giyu",
                                 "Age": [
                                     "19 (Chapter 1)",
                                     " 21 (As of Chapter 28)"
@@ -258,7 +265,9 @@
                                 "Anime Debut": "Episode 1",
                                 "Image": "rb.gy/52rchv"
                             },
-                            "Rengoku Kyojuro": {
+                            {
+                                "id": 4,
+                                "name": "TRengoku Kyojuro",
                                 "Age": 20,
                                 "Height": "177 cm",
                                 "Weight": "72 kg (159 lb)",
@@ -268,7 +277,6 @@
                                 "Anime Debut": "Episode 21",
                                 "Image": "https://rb.gy/ayrkov"
                             }
-                        }
                     ],
                     "seasonOne": {
                         "episodes": [
