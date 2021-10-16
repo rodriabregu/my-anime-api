@@ -203,7 +203,7 @@
                 {
                     "characters": [
                         {
-                            "Tanjiro Kamado": {
+                            "TanjiroKamado": {
                                 "Age": [
                                     "13 (Chapter 1)",
                                     "15 (End of Chapter 5)",
@@ -212,8 +212,8 @@
                                 "Height": "165 cm",
                                 "Weight": "61 kg (134 lb)",
                                 "Birthday": "July 14th",
-                                "Hair Color": "Black to Red",
-                                "Eye Color": "Dark Red",
+                                "HairColor": "Black to Red",
+                                "EyeColor": "Dark Red",
                                 "Anime Debut": "Episode 1",
                                 "Image": "https://rb.gy/uxxr0r"
                             },
