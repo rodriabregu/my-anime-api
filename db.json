@@ -221,61 +221,61 @@
                             {
                                 "id": 2,
                                 "name": "TNezuko Kamado",
-                                "Age": [
+                                "age": [
                                     "12 (Physically)",
                                     "14 (Chronologically)"
                                 ],
-                                "Height": "153 cm",
-                                "Weight": "45 kg (99 lb)",
-                                "Birthday": "December 28th",
-                                "Hair Color": [
+                                "height": "153 cm",
+                                "weight": "45 kg (99 lb)",
+                                "birthday": "December 28th",
+                                "hair Color": [
                                     "Black (Human)",
                                     "Black to Flame orange (Demon)"
                                 ],
-                                "Eye Color": [
+                                "eyeColor": [
                                     "Pale Pink (Demon)",
                                     "Dark Pink (Human)"
                                 ],
-                                "Anime Debut": "Episode 1",
-                                "Image": "https://rb.gy/sygcws"
+                                "animeDebut": "Episode 1",
+                                "image": "https://rb.gy/sygcws"
                             },
                             {
                                 "id": 3,
                                 "name": "Tanjuro Kamado",
-                                "Hair Color": "Black to Red",
-                                "Eye Color": "Dark Red",
-                                "Anime Debut": [
+                                "hairColor": "Black to Red",
+                                "eyeColor": "Dark Red",
+                                "animeDebut": [
                                     "Episode 1 (Partial Appearance)",
                                     "Episode 19 (Full Appearance)"
                                 ],
-                                "Image": "https://rb.gy/zxv5db"
+                                "image": "https://rb.gy/zxv5db"
                             },
                             {
                                 "id": 3,
                                 "name": "Tomioka Giyu",
-                                "Age": [
+                                "age": [
                                     "19 (Chapter 1)",
                                     " 21 (As of Chapter 28)"
                                 ],
-                                "Height": "176 cm",
-                                "Weight": "69 kg (152 lb)",
-                                "Birthday": "February 8th",
-                                "Hair Color": "Black",
-                                "Eye Color": "Dark Blue",
-                                "Anime Debut": "Episode 1",
-                                "Image": "rb.gy/52rchv"
+                                "height": "176 cm",
+                                "weight": "69 kg (152 lb)",
+                                "birthday": "February 8th",
+                                "hair Color": "Black",
+                                "eyeColor": "Dark Blue",
+                                "animeDebut": "Episode 1",
+                                "image": "rb.gy/52rchv"
                             },
                             {
                                 "id": 4,
                                 "name": "TRengoku Kyojuro",
-                                "Age": 20,
-                                "Height": "177 cm",
-                                "Weight": "72 kg (159 lb)",
-                                "Birthday": "May 10th",
-                                "Hair Color": "Gold with Red Tips",
-                                "Eye Color": "Gold with Red Irises",
-                                "Anime Debut": "Episode 21",
-                                "Image": "https://rb.gy/ayrkov"
+                                "age": 20,
+                                "height": "177 cm",
+                                "weight": "72 kg (159 lb)",
+                                "birthday": "May 10th",
+                                "hairColor": "Gold with Red Tips",
+                                "eyeColor": "Gold with Red Irises",
+                                "animeDebut": "Episode 21",
+                                "image": "https://rb.gy/ayrkov"
                             }
                     ],
                     "seasonOne": {
