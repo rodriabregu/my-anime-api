@@ -216,11 +216,12 @@
                                 "hairColor": "Black to Red",
                                 "eyeColor": "Dark Red",
                                 "animeDebut": "Episode 1",
-                                "image": "https://rb.gy/uxxr0r"
+                                "image": "https://rb.gy/uxxr0r",
+                                "image2": "https://static.wikia.nocookie.net/kimetsu-no-yaiba/images/c/c7/Tanjiro_anime_design.png/revision/latest/scale-to-width-down/350?cb=20181128204204"
                             },
                             {
                                 "id": 2,
-                                "name": "TNezuko Kamado",
+                                "name": "Nezuko Kamado",
                                 "age": [
                                     "12 (Physically)",
                                     "14 (Chronologically)"
