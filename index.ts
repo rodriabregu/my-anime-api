@@ -2,6 +2,7 @@ import { ApolloServer } from 'apollo-server';
 import { data } from './data';
 import { typeDefs } from './typeDefs';
 import { characterInt, animeInt } from './interfaces';
+const port = process.env.PORT || 3000;
 
 const resolvers = {
   Query: {
@@ -25,6 +26,6 @@ const server = new ApolloServer({
   resolvers
 })
 
-server.listen().then(({url}) => {
+server.listen(port).then(({url}) => {
   console.log(`Server ready at ${url}`)
 })
