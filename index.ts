@@ -1,4 +1,5 @@
 import { ApolloServer } from 'apollo-server';
+import { ApolloServerPluginLandingPageGraphQLPlayground } from "apollo-server-core";
 import { data } from './data';
 import { typeDefs } from './typeDefs';
 import { characterInt, animeInt } from './interfaces';
@@ -23,7 +24,10 @@ const resolvers = {
 
 const server = new ApolloServer({
   typeDefs,
-  resolvers
+  resolvers,
+  plugins: [
+    ApolloServerPluginLandingPageGraphQLPlayground,
+  ]
 })
 
 server.listen(port).then(({url}) => {
