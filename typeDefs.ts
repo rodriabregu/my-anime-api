@@ -4,7 +4,7 @@ export const typeDefs = gql`
   type Characters {
     id: Int!
     name: String!
-    age: String
+    age: [String]
     height: String
     weight: String
     birthday: String
