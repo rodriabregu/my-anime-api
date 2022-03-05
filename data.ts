@@ -30,7 +30,7 @@ export const data = [
         },
         {
           id: 3,
-          name: 'Asuka Langle,oryu',
+          name: 'Asuka Langley Soryu',
           age: ['14'],
           height: ' 1,57 m (5 ′ 2 ″)',
           weight: '46 kg (101 lb)',
@@ -42,7 +42,7 @@ export const data = [
         },
         {
           id: 4,
-          name: 'Misato Katsu,i',
+          name: 'Misato Katsuragi',
           age: ['30', '43 (3.0)'],
           height: '1,63 m (5 ′ 4 ″)',
           weight: '65.8 kg (145 lb)',
@@ -221,7 +221,7 @@ export const data = [
           'hair Color': 'Black',
           eyeColor: 'Dark Blue',
           animeDebut: 'Episode 1',
-          image: 'rb.gy/52rchv',
+          image: 'https://rb.gy/52rchv',
         },
         {
           id: 4,
