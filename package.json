@@ -1,6 +1,6 @@
 {
   "name": "anime-api",
-  "version": "0.1.3",
+  "version": "0.1.5",
   "description": "anime api",
   "main": "index.js",
   "scripts": {
