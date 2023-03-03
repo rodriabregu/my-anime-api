@@ -1,4 +1,4 @@
-import {gql} from 'apollo-server';
+import { gql } from 'apollo-server'
 
 export const typeDefs = gql`
   type Characters {
@@ -44,8 +44,6 @@ export const typeDefs = gql`
   }
 
   type Mutation {
-    createAnime(
-      title: String!
-      ): Anime
+    createAnime(title: String!): Anime
   }
 `
