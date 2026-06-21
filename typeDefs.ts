@@ -1,6 +1,4 @@
-import { gql } from 'apollo-server'
-
-export const typeDefs = gql`
+export const typeDefs = `
   type Characters {
     id: Int!
     name: String!
@@ -14,14 +12,9 @@ export const typeDefs = gql`
     image: String
   }
 
-  type Seasons {
-    season: String
-  }
-
   type Info {
     characters: [Characters]!
     curiosities: [String]
-    season: Seasons
   }
 
   type Anime {
