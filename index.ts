@@ -1,42 +1,39 @@
-import { ApolloServer } from 'apollo-server'
-import { ApolloServerPluginLandingPageGraphQLPlayground } from 'apollo-server-core'
+import { createSchema, createYoga } from 'graphql-yoga'
 import { data } from './data'
 import { typeDefs } from './typeDefs'
-import { characterInt, animeInt, nameInt } from './interfaces'
-const port = process.env.PORT || 3000
+import type { AnimeInt, CharacterInt } from './types'
 
-const resolvers = {
+export const resolvers = {
   Query: {
     animeCount: () => data.length,
     allAnimes: () => data,
-    findAnime: (_: any, { id }: { id: number }) => {
-      return data.find(e => e.id === id)
+    findAnime: (_: unknown, { id }: { id: number }) => {
+      return data.find(e => e.id === id) ?? null
     },
-    allCharactersAnime: (_: any, { name }: { name: string }) => {
-      return data
-        .filter(e => e.title.toLocaleLowerCase() === name.toLocaleLowerCase())[0]
-        .info.characters.map((e: nameInt) => e)
+    allCharactersAnime: (_: unknown, { name }: { name: string }) => {
+      return data.find(e => e.title.toLowerCase() === name.toLowerCase())?.info.characters ?? null
     },
-    oneCharacter: (_: any, { name }: { name: string }) => {
-      const dataInfo: any = data.filter((e: animeInt) =>
-        e.info.characters.find((e: characterInt) => e.name.toLocaleLowerCase() === name.toLocaleLowerCase())
-      )
-      return dataInfo
-        .filter((e: animeInt) =>
-          e.info.characters.find((e: characterInt) => e.name.toLocaleLowerCase() === name.toLocaleLowerCase())
-        )[0]
-        .info.characters.find((e: characterInt) => e.name.toLocaleLowerCase() === name.toLocaleLowerCase())
+    oneCharacter: (_: unknown, { name }: { name: string }) => {
+      for (const anime of data) {
+        const char = anime.info.characters.find((c: CharacterInt) => c.name.toLowerCase() === name.toLowerCase())
+        if (char) return char
+      }
+      return null
+    },
+  },
+  Mutation: {
+    createAnime: (_: unknown, { title }: { title: string }): AnimeInt => {
+      const nextId = data.reduce((max, e) => (e.id > max ? e.id : max), 0) + 1
+      const newAnime: AnimeInt = { id: nextId, title, info: { characters: [] } }
+      data.push(newAnime)
+      return newAnime
     },
   },
 }
 
-const server = new ApolloServer({
-  typeDefs,
-  resolvers,
-  introspection: true,
-  plugins: [ApolloServerPluginLandingPageGraphQLPlayground],
-})
+const schema = createSchema({ typeDefs, resolvers })
+const yoga = createYoga({ schema, graphiql: true })
 
-server.listen(port).then(({ url }) => {
-  console.log(`Server ready at ${url}`)
-})
+if (import.meta.main) {
+  Bun.serve({ fetch: yoga, port: process.env.PORT || 3000 })
+}
