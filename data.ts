@@ -1,4 +1,6 @@
-export const data = [
+import type { AnimeInt } from './types'
+
+export const data: AnimeInt[] = [
   {
     id: 1,
     title: 'Evangelion',
@@ -142,7 +144,7 @@ export const data = [
         {
           id: 18,
           name: 'Kensuke Aida',
-          age: '[14]',
+          age: ['14'],
         },
         {
           id: 19,
@@ -175,11 +177,7 @@ export const data = [
         {
           id: 1,
           name: 'Tanjiro Kamado',
-          age: [
-            '13 (Chapter 1)',
-            '15 (End of Chapter 5)',
-            '16-17 (End of Chapter 204)',
-          ],
+          age: ['13 (Chapter 1)', '15 (End of Chapter 5)', '16-17 (End of Chapter 204)'],
           height: '165 cm',
           weight: '61 kg (134 lb)',
           birthday: 'July 14th',
@@ -195,20 +193,18 @@ export const data = [
           height: '153 cm',
           weight: '45 kg (99 lb)',
           birthday: 'December 28th',
-          'hair Color': ['Black (Human)', 'Black to Flame orange (Demon)'],
-          eyeColor: ['Pale Pink (Demon)', 'Dark Pink (Human)'],
+          hairColor: 'Black (Human)',
+          eyeColor: 'Pale Pink (Demon)',
           animeDebut: 'Episode 1',
-          image: 'https://static.wikia.nocookie.net/kimetsu-no-yaiba/images/1/14/Nezuko_manga.png/revision/latest/scale-to-width-down/350?cb=20190813032755&path-prefix=es',
+          image:
+            'https://static.wikia.nocookie.net/kimetsu-no-yaiba/images/1/14/Nezuko_manga.png/revision/latest/scale-to-width-down/350?cb=20190813032755&path-prefix=es',
         },
         {
           id: 3,
           name: 'Tanjuro Kamado',
           hairColor: 'Black to Red',
           eyeColor: 'Dark Red',
-          animeDebut: [
-            'Episode 1 (Partial Appearance)',
-            'Episode 19 (Full Appearance)',
-          ],
+          animeDebut: 'Episode 1 (Partial Appearance)',
           image: 'https://rb.gy/zxv5db',
         },
         {
@@ -218,7 +214,7 @@ export const data = [
           height: '176 cm',
           weight: '69 kg (152 lb)',
           birthday: 'February 8th',
-          'hair Color': 'Black',
+          hairColor: 'Black',
           eyeColor: 'Dark Blue',
           animeDebut: 'Episode 1',
           image: 'https://rb.gy/52rchv',
@@ -236,50 +232,6 @@ export const data = [
           image: 'https://rb.gy/ayrkov',
         },
       ],
-      seasonOne: {
-        episodes: [
-          {
-            castellano: {
-              '01': {
-                title: 'Crueldad',
-                release: '6 de abril de 2019',
-              },
-              '02': {
-                title: 'El instructor, Sakonji Urokodaki',
-                release: '13 de abril de 2019',
-              },
-              '03': {
-                title: 'Sabito y Makomo',
-                release: '20 de abril de 2019',
-              },
-              '04': {
-                title: 'Selección final',
-                release: '27 de abril de 2019',
-              },
-              '05': {
-                title: 'Tu acero',
-                release: '4 de mayo de 2019',
-              },
-            },
-          },
-          {
-            japones: {
-              '01': {
-                title: 'Zankoku',
-                release: '6 de abril de 2019',
-              },
-              '02': {
-                title: 'Iku-shu Urokodaki Sakonji',
-                release: '13 de abril de 2019',
-              },
-              '03': {
-                title: 'Sabito to Makomo',
-                release: '20 de abril de 2019',
-              },
-            },
-          },
-        ],
-      },
     },
   },
   {
@@ -290,15 +242,14 @@ export const data = [
         {
           id: 1,
           name: 'Goku',
-          age: [
-            '737',
-          ],
+          age: ['737'],
           height: '175 cm (5"9")',
           weight: '62 kg (137 lbs)',
           birthday: 'Age 737',
           hairColor: 'Black',
           animeDebut: 'The Secret of the Dragon Balls',
-          image: 'https://static.wikia.nocookie.net/dragonball/images/5/5b/Gokusteppingoutofaspaceship.jpg/revision/latest/scale-to-width-down/242?cb=20211011163724',
+          image:
+            'https://static.wikia.nocookie.net/dragonball/images/5/5b/Gokusteppingoutofaspaceship.jpg/revision/latest/scale-to-width-down/242?cb=20211011163724',
         },
         {
           id: 2,
@@ -308,7 +259,8 @@ export const data = [
           birthday: 'May 18, Age 757',
           hairColor: 'Black',
           animeDebut: 'The New Threat',
-          image: 'https://static.wikia.nocookie.net/dragonball/images/d/d9/Ultimate_Gohan_full.png/revision/latest/scale-to-width-down/175?cb=20191004025226',
+          image:
+            'https://static.wikia.nocookie.net/dragonball/images/d/d9/Ultimate_Gohan_full.png/revision/latest/scale-to-width-down/175?cb=20191004025226',
         },
         {
           id: 3,
@@ -318,7 +270,8 @@ export const data = [
           birthday: 'Age 732',
           hairColor: 'Black',
           animeDebut: 'Gohan"s Rage',
-          image: 'https://static.wikia.nocookie.net/dragonball/images/0/0b/Vegeta_DBZ_Episode_222.png/revision/latest/scale-to-width-down/206?cb=20220113045006',
+          image:
+            'https://static.wikia.nocookie.net/dragonball/images/0/0b/Vegeta_DBZ_Episode_222.png/revision/latest/scale-to-width-down/206?cb=20220113045006',
         },
         {
           id: 4,
@@ -328,7 +281,8 @@ export const data = [
           birthday: 'May 9th, Age 753',
           hairColor: 'Black',
           animeDebut: 'Lost and Found',
-          image: 'https://static.wikia.nocookie.net/dragonball/images/c/cd/Piccolo_DBZ_Episode_148.png/revision/latest/scale-to-width-down/182?cb=20211023180024',
+          image:
+            'https://static.wikia.nocookie.net/dragonball/images/c/cd/Piccolo_DBZ_Episode_148.png/revision/latest/scale-to-width-down/182?cb=20211023180024',
         },
         {
           id: 5,
@@ -338,7 +292,8 @@ export const data = [
           birthday: 'August 18, Age 733',
           hairColor: 'Silver',
           animeDebut: 'The Secret of the Dragon Balls',
-          image: 'https://static.wikia.nocookie.net/dragonball/images/e/eb/Bulma_-_Blood_Rubies_-_000.png/revision/latest/scale-to-width-down/314?cb=20191109020452',
+          image:
+            'https://static.wikia.nocookie.net/dragonball/images/e/eb/Bulma_-_Blood_Rubies_-_000.png/revision/latest/scale-to-width-down/314?cb=20191109020452',
         },
         {
           id: 6,
@@ -347,7 +302,8 @@ export const data = [
           weight: '45 kg (99 lbs)',
           birthday: 'October 29, Age 736',
           animeDebut: 'Goku"s Rival',
-          image: 'https://static.wikia.nocookie.net/dragonball/images/5/54/Krillin_DB_Episode_134.png/revision/latest/scale-to-width-down/344?cb=20220114045158',
+          image:
+            'https://static.wikia.nocookie.net/dragonball/images/5/54/Krillin_DB_Episode_134.png/revision/latest/scale-to-width-down/344?cb=20220114045158',
         },
         {
           id: 6,
@@ -356,7 +312,8 @@ export const data = [
           weight: '44 kg (97 lbs)',
           birthday: 'Age 430',
           animeDebut: 'The Nimbus Cloud of Roshi',
-          image: 'https://static.wikia.nocookie.net/dragonball/images/5/5f/Master_roshi_enhanced.jpg/revision/latest/scale-to-width-down/350?cb=20210310020858',
+          image:
+            'https://static.wikia.nocookie.net/dragonball/images/5/5f/Master_roshi_enhanced.jpg/revision/latest/scale-to-width-down/350?cb=20210310020858',
         },
         {
           id: 7,
@@ -366,7 +323,8 @@ export const data = [
           birthday: 'March 20, Age 733',
           hairColor: 'Black',
           animeDebut: 'Yamcha the Desert Bandit',
-          image: 'https://static.wikia.nocookie.net/dragonball/images/5/59/Yamcha_DB_Episode_138.png/revision/latest/scale-to-width-down/236?cb=20210904213322',
+          image:
+            'https://static.wikia.nocookie.net/dragonball/images/5/59/Yamcha_DB_Episode_138.png/revision/latest/scale-to-width-down/236?cb=20210904213322',
         },
         {
           id: 8,
@@ -375,7 +333,8 @@ export const data = [
           weight: '75 kg (165 lbs)',
           birthday: 'Age 733',
           animeDebut: 'The Rampage of InoShikaCho',
-          image: 'https://static.wikia.nocookie.net/dragonball/images/e/e2/Tien_DBZ_Episode_152.png/revision/latest/scale-to-width-down/280?cb=20210519034134',
+          image:
+            'https://static.wikia.nocookie.net/dragonball/images/e/e2/Tien_DBZ_Episode_152.png/revision/latest/scale-to-width-down/280?cb=20210519034134',
         },
         {
           id: 9,
@@ -384,7 +343,8 @@ export const data = [
           weight: '33 kg (72 lbs)',
           birthday: 'Age 738',
           animeDebut: 'The Rampage of InoShikaCho',
-          image: 'https://static.wikia.nocookie.net/dragonball/images/b/bb/Chiaotzu_DB_Ep_134_002.png/revision/latest/scale-to-width-down/350?cb=20180823011648',
+          image:
+            'https://static.wikia.nocookie.net/dragonball/images/b/bb/Chiaotzu_DB_Ep_134_002.png/revision/latest/scale-to-width-down/350?cb=20180823011648',
         },
         {
           id: 10,
@@ -393,7 +353,8 @@ export const data = [
           weight: '78 kg (172 lbs)',
           birthday: 'Age 735',
           animeDebut: 'Mark of the Demon',
-          image: 'https://static.wikia.nocookie.net/dragonball/images/6/64/Yajirobe_DBZ_Episode_46.png/revision/latest/scale-to-width-down/314?cb=20211016045316',
+          image:
+            'https://static.wikia.nocookie.net/dragonball/images/6/64/Yajirobe_DBZ_Episode_46.png/revision/latest/scale-to-width-down/314?cb=20211016045316',
         },
       ],
     },
