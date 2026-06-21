@@ -1,4 +1,4 @@
-export interface characterInt {
+export interface CharacterInt {
   id: number
   name: string
   age?: string[]
@@ -10,13 +10,19 @@ export interface characterInt {
   animeDebut?: string
   image?: string
 }
-export interface animeInt {
-  id: number
-  title: string
-  info: any
+
+export interface InfoInt {
+  characters: CharacterInt[]
+  curiosities?: string[]
 }
 
-export interface nameInt {
+export interface AnimeInt {
+  id: number
+  title: string
+  info: InfoInt
+}
+
+export interface NameInt {
   name: string
   image?: string
 }
